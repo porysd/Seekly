@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralized System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<header>
+    <div class="sectionTitle">
+        <h1>BUILDING MAP</h1>
+        <div class="lintech-logo">
+            <img src="Logos/Lintech.png" alt="LinTech Logo">
+        </div>
+    </div>
+</header>
+<body>
+    <div class="sidebar">
+        <a href="home.html" class="tab-logo">
+            <img src="Logos/home.png" alt="Homepage">
+            <span>Home</span>
+        </a>
+        <a href="events.html" class="tab-logo">
+            <img src="Logos/Events.png" alt="Events">
+            <span>Event</span>
+        </a>
+        <a href="maps.html" class="tab-logo">
+            <img src="Logos/Maps.png" alt="Maps">
+            <span>Map</span>
+        </a>
+        <a href="report.html" class="tab-logo">
+            <img src="Logos/Reports.png" alt="Reports">
+            <span>Report</span>
+        </a>
+        <a href="contactus.html" class="tab-logo">
+            <img src="Logos/Contacts.png" alt="Contact Us">
+            <span>Contact Us</span>
+        </a>
+    </div>
+
+    <div class="content">
+        <div class="tab-content" id="maps-content">
+            <div class ="building-border">
+                <div class="search-tab">
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <button id="search-button">Search</button>
+                </div>
+                <div class="building-buttons">
+                    <button class="building-button" onclick="showFloor('A')" data-building="A">Ground Floor</button>
+                    <button class="building-button" onclick="showFloor('B')" data-building="B">Second Floor</button>
+                    <button class="building-button" onclick="showFloor('C')" data-building="C">Third Floor</button>
+                    <button class="building-button" onclick="showFloor('D')" data-building="D">Fourth Floor</button>
+                </div>
+                <div class="schedule-container">
+                    <p class="schedule-placeholder">Classromm Schedule</p>
+                </div>
+                <div class="blueprints">
+                    <div class="floors-print">
+                        <p id="no-building-message">=== NO FLOOR SELECTED ===</p>
+                        <img id="floor-image" src="" style="display: none;">
+                    </div>
+                </div>
+                <div class="classroom-schedule" id="classroom-schedule">
+                    <!-- CONTENT -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Other content or footer if needed -->
+</body>
+</html>

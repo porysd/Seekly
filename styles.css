@@ -1,0 +1,493 @@
+
+/*FOR ALL THE HTML */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*HOME*/
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    background-color: white;
+}
+
+.search-bar1 {
+    max-width: 80%; 
+    width: 500px;
+    height: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.search-tab1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#container-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width:60%;
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+
+.container {
+    flex: 1;
+    max-width: 150px; 
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    border-radius: 20px;
+    font-family: RobotoLightNew, Helvetica, Arial, sans-serif;
+    margin: 10px;
+}
+.container:hover {
+    background-color: #f0f0f0;
+}
+
+/* KEYBOARD */
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.btn, .shift, .delete, .space{
+    background-color: #423F3E;
+    border: none;
+    display: inline-block;
+    padding: 1rem;
+    margin: .3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: .5rem;
+}
+
+.btn:hover, .shift:hover, .delete:hover, .space:hover {
+    background-color: #2b2b2b;
+}
+
+.delete,
+.shift,
+.space {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.delete { width: 100px; }
+.shift { width: 70px; }
+.space { width: 350px; }
+
+.textarea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.upper { 
+    text-transform: uppercase; 
+}
+
+
+/* HOMEPAGE */
+
+.sectionTitle h1{
+    width: 100%;
+    background-color:#2B2B2B ;
+    padding:  20px;
+    margin: 0;
+    flex:1;
+    text-indent: 5%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: RobotoLightNew, Helvetica, Arial, sans-serif;
+}
+
+
+header {
+    position: relative;
+    
+}
+
+.lintech-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lintech-logo img {
+    width: 60px; 
+    height: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+/* Basic styling for the sidebar */
+.sidebar {
+    width: 6.5%; 
+    background-color: #423F3E;
+    position:fixed;
+    margin: 0;
+    left:0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.tab-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Style for tab logos */
+.tab-logo img {
+    width: 150px; 
+    height: auto; 
+    margin: 1%;
+}
+
+.tab-logo span {
+    font-size: 13px; 
+    color: white;
+}
+
+/* Styling for the content area */
+.content {
+    margin-left: 10%; 
+    padding: 0;
+}
+
+/* Style for the scrolling box */
+.scrolling-box {
+    width: 90%; 
+    height: auto;
+    white-space: normal;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: darkgrey;
+    border: 10px solid #2b2b2b;
+}
+
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Style for individual sub-tabs */
+.swiper-slide {
+    max-width: 100%;
+    height: auto;
+    padding: 30px;
+    flex-shrink: 0;
+    padding-left: 200px;
+}
+
+#embedded{
+    max-width: 90%;
+    height: auto;
+    flex-shrink: 0;
+    padding-left: 100px;
+    object-fit: none;
+    object-fit: scale-down;
+}
+
+
+/* Style for the sub-tab content container */
+.sub-tabs {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Style for the pagination dots (bottom) */
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    padding: 20px;
+
+    
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 25px; 
+    height: 15px; 
+    background: #555;
+    border-radius: 0; 
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: #37474F; 
+}
+
+
+
+
+
+
+/* MAP */
+
+.search-bar {
+    width: 150px; 
+    height: auto;
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#search-button{
+    background-color: #423F3E;
+}
+
+.building-buttons {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+}
+
+.building-button {
+    width: 150px;
+    height: auto;
+    padding: 10px 20px; 
+    margin: 20px 0; 
+    text-align: center;
+    background: white;
+    border: 1px solid black;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #423F3E;
+}
+
+.building-button:hover {
+    background-color:#2b2b2b;
+    color: white;
+}
+
+.building-button.active {
+    background-color: #101111c5;
+    color: white;
+}
+
+#no-building-message {
+    display: block;
+    color: #888;
+    font-size: 18px;
+    text-align: center;
+}
+
+.building-border {
+    width: 1200px; 
+    height: 460px; 
+    border: 10px solid #2b2b2b;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: darkgrey;
+    position: relative;
+}
+
+.schedule-container {
+    width: 200px;
+    height: 450px;
+    position: absolute;
+    top:50px;
+    right:40px;
+    border: 1px solid black;
+    background-color: #504f4f;
+    border-radius: 20px;
+}
+
+.schedule-placeholder {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+}
+
+.blueprints {
+    overflow: hidden;
+}
+
+.blueprints,
+.blueprints * {
+    box-sizing: border-box;
+}
+
+.blueprints {
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    background: #504f4f;
+    border-radius: 24px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.floors-print {
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.floors-print img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+
+
+/* REPORT & CONTACTS*/
+
+.contact-tab{
+    width: 1210px; 
+    height: 460px; 
+    background-color: darkgrey;
+    border: 10px solid #2b2b2b;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+#initialButtons, #feedbackForm, #reportForm, #confirmationMessage {
+    width: 1190px; 
+    height: auto; 
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+  #feedbackForm, #reportForm {
+    display: none;
+    width: 1140px;
+    height: auto;
+    border: 1px solid black;
+  }
+
+  #confirmationMessage {
+    display: none;
+    color: #37474F;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    
+    color: black;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    color:white;
+    background-color: #423F3E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    color: white;
+    background-color: #2b2b2b;
+  }
+
+  .success {
+    color: #2ecc71;
+  }
+
+
+
+
+@media screen and (max-width: 600px) {
+    .content {
+        margin-left: 5%;
+    }
+
+    .scrolling-box {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        margin-left: 8%;
+    }
+
+    .scrolling-box {
+        width: 80%;
+    }
+
+    /* Add more styles as needed */
+}
