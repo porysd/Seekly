@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centralized System</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/b101170bba.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <title>Centralized System</title>
 </head>
 <header>
     <div class="sectionTitle">
-        <h1>BUILDING MAP</h1>
+        <h1>CAMERA</h1>
         <div class="lintech-logo">
             <img src="Logos/Lintech.png" alt="LinTech Logo">
         </div>
@@ -49,33 +50,27 @@
     </div>
 
     <div class="content">
-        <div class="tab-content" id="maps-content">
-            <div class ="building-border">
-                <div class="search-tab">
-                    <input class="search-bar" type="text" placeholder="Search">
-                    <button id="search-button">Search</button>
-                </div>
-                <div class="building-buttons">
-                    <button class="building-button" onclick="showFloor('A')" data-building="A">Ground Floor</button>
-                    <button class="building-button" onclick="showFloor('B')" data-building="B">Second Floor</button>
-                    <button class="building-button" onclick="showFloor('C')" data-building="C">Third Floor</button>
-                    <button class="building-button" onclick="showFloor('D')" data-building="D">Fourth Floor</button>
-                </div>
-                <div class="schedule-container">
-                    <p class="schedule-placeholder">Classromm Schedule</p>
-                </div>
-                <div class="blueprints">
-                    <div class="floors-print">
-                        <p id="no-building-message">=== NO FLOOR SELECTED ===</p>
-                        <img id="floor-image" src="" style="display: none;">
+        <!-- Homepage Tab Content -->
+        <div class="tab-content" id="homepage-content">
+            <div class="scrolling-box">
+                <div class="sub-tabs swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-sub-tab="sub-tab1">
+                            <img src = "Photos/377322896_266224996288751_2152221283917590623_n.png">
+                        </div>
+                        <div class="swiper-slide" data-sub-tab="sub-tab2">
+                            <img src = "Photos/377148502_268086296043184_3405153829563234601_n.png">
+                        </div>
+                        <div class="swiper-slide" id="embedded" data-sub-tab="sub-tab3">
+                            <img src="Photos/377970099_1997483757281474_8672421259101430590_n.png"
+                        </div>
                     </div>
                 </div>
-                <div class="classroom-schedule" id="classroom-schedule">
-                    <!-- CONTENT -->
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
-    <!-- Other content or footer if needed -->
+
+    <script src="script.js"></script>
 </body>
 </html>
