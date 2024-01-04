@@ -410,7 +410,7 @@ video{
     margin: 10px 0px;
 }
 
-button{
+#snap{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
@@ -422,7 +422,7 @@ button{
     margin-bottom: 10px;
 }
 
-button:hover{
+#snap:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
