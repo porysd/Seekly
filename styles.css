@@ -160,23 +160,32 @@ header {
 }
 
 
+
+
 .tab-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-solid:hover {
+    color: #2b2b2b;
+}
+
+.fa-solid.active {
+    color:#2ecc71;
 }
 
 /* Style for tab logos */
-.tab-logo img {
-    width: 150px; 
-    height: auto; 
-    margin: 1%;
-}
+
 
 .tab-logo span {
     font-size: 13px; 
     color: white;
+    padding: 25px;
 }
 
 /* Styling for the content area */

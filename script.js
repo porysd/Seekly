@@ -65,25 +65,20 @@ searchButton.addEventListener('click', () => {
 
 var selectedImage = null;
 
-// JavaScript function to resize the clicked image
 function resizeImage(image) {
-    // Check if an image is already selected
+
     if (selectedImage !== null) {
-        // Reset the previously selected image to its original size
         selectedImage.classList.remove('selected');
     }
 
-    // Enlarge the clicked image
     image.classList.add('selected');
 
-    // Set the clicked image as the currently selected image
     selectedImage = image;
 }
 
-// Attach a click event to the body to reset the selected image when clicking on a blank area
 document.body.addEventListener('click', function(event) {
     if (selectedImage !== null && !event.target.classList.contains('resizable-image')) {
-        // Reset the selected image when clicking on a blank area
+
         selectedImage.classList.remove('selected');
         selectedImage = null;
     }
@@ -95,13 +90,12 @@ const tabContents = document.querySelectorAll('.tab-content');
 tabLogos.forEach((tabLogo, index) => {
     tabLogo.addEventListener('click', () => {
 
-        // Hide all tab contents
         tabContents.forEach(content => content.style.display = 'none');
         
-        // Show the selected tab content
         tabContents[index].style.display = 'block';
     });
 });
+
 
 //HOMEPAGE//
 var mySwiper = new Swiper('.sub-tabs', {
@@ -163,25 +157,6 @@ function showFloor(building) {
           floorImage.style.display = "none";
   }
 }
-
-
-
-//COURESES//
-
-function showInfo(boxId) {
-  var infoContainer = document.getElementById(boxId + '-info');
-  infoContainer.style.display = 'block';
-}
-
-function hideInfo(boxId) {
-  var infoContainer = document.getElementById(boxId + '-info');
-  infoContainer.style.display = 'none';
-}
-
-
-
-//TEACHERS//
-
 
 //CONTACTS//
 
