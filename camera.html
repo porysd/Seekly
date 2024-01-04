@@ -50,27 +50,46 @@
     </div>
 
     <div class="content">
-        <!-- Homepage Tab Content -->
-        <div class="tab-content" id="homepage-content">
-            <div class="scrolling-box">
-                <div class="sub-tabs swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" data-sub-tab="sub-tab1">
-                            <img src = "Photos/377322896_266224996288751_2152221283917590623_n.png">
-                        </div>
-                        <div class="swiper-slide" data-sub-tab="sub-tab2">
-                            <img src = "Photos/377148502_268086296043184_3405153829563234601_n.png">
-                        </div>
-                        <div class="swiper-slide" id="embedded" data-sub-tab="sub-tab3">
-                            <img src="Photos/377970099_1997483757281474_8672421259101430590_n.png"
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
+        <div class="container-camera">
+            <div class="camera-video">
+                <video id="video" width="500" height="340"></video>
+                <button id="snap">
+                    <i class="fa-solid fa-camera fa-2xl"></i>
+                </button>
+            </div>
+            <div class="camera-snapshot" id="camera-snapshot">
+    
             </div>
         </div>
     </div>
 
     <script src="script.js"></script>
+    <script>
+
+    var video = document.getElementById('video');
+    var cameraShot = document.getElementById('camera-snapshot');
+    var canvasShot = document.getElementById('.canvas');
+
+    if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+            video.srcObject = stream;
+            video.play()
+        })
+    }
+
+    document.getElementById('snap').addEventListener('click', function() {
+        var canvas = document.createElement('canvas');
+        var context = canvas.getContext('2d') 
+
+        canvas.width = '280'
+        canvas.height = '200'
+        canvas.className = 'canvas'
+        canvas.style.margin = '0px 1.5px'
+        console.log(canvas)
+
+        cameraShot.appendChild(canvas);
+        context.drawImage(video, 0, 0, 280, 200)
+    })
+    </script>
 </body>
 </html>

@@ -158,6 +158,12 @@ function showFloor(building) {
   }
 }
 
+
+
+/*GAME*/
+
+
+
 //CONTACTS//
 
 function showFeedbackForm() {

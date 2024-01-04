@@ -396,6 +396,65 @@ header {
 
 
 
+/*CAMERA*/
+
+.camera-video{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    margin: 10px 0px;
+}
+
+button{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 65px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.camera-snapshot{
+    background-color: rgb(255, 255, 255, .021);
+    height: 200px;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    overflow-x: scroll;
+    padding: 3px 1.5px;
+}
+
+.camera-snapshot::-webkit-scrollbar{
+    height: 5px;
+}
+
+.camera-snapshot::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    background: transparent;
+}
+
+.camera-snapshot::-webkit-scrollbar-thumb{
+    background: rgb(187, 187, 187);
+    border-radius: 50px;
+}
+
+
+/*GAMES*/
+
 /* REPORT & CONTACTS*/
 
 .contact-tab{
