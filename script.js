@@ -151,6 +151,11 @@ function showFloor(building) {
           noBuildingMessage.style.display = "none";
           floorImage.style.display = "block";
           break;
+      case 'E':
+            floorImage.src = "Blueprints/blueprint-d.jpg";
+            noBuildingMessage.style.display = "none";
+            floorImage.style.display = "block";
+            break;
       default:
           floorImage.src = "";
           noBuildingMessage.style.display = "block";
