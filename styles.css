@@ -513,6 +513,11 @@ video{
     border: 1px solid black;
   }
 
+  .wow {
+    display:block;
+    margin-bottom: 10px;
+    color: white;
+  }
   #confirmationMessage {
     display: none;
     color: #37474F;
@@ -523,6 +528,7 @@ video{
     margin-bottom: 8px;
     color: black;
   }
+  
 
   input, textarea, select {
     width: 100%;
