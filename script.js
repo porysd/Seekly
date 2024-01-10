@@ -136,7 +136,7 @@ function showFloor(building) {
           floorImage.style.display = "block";
           break;
       case 'E':
-            floorImage.src = "Blueprints/blueprint-d.jpg";
+            floorImage.src = "Blueprints/court.jpg";
             noBuildingMessage.style.display = "none";
             floorImage.style.display = "block";
             break;
