@@ -64,9 +64,14 @@ body{
     font-weight: 1000;
     font-size: 20px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.24);
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
 }
-.container:hover {
+.container:is(:hover, :focus) {
     background-color: #f0f0f0;
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
 }
 
 /* KEYBOARD */

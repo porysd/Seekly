@@ -36,7 +36,7 @@ searchButton.addEventListener('click', () => {
     const searchTerm = textarea.value.toLowerCase();
 
     switch (searchTerm) {
-        case 'event':
+        case 'home':
             window.location.href = 'events.html';
             break;
         case 'map':
