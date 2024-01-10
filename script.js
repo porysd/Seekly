@@ -98,23 +98,22 @@ tabLogos.forEach((tabLogo, index) => {
 
 
 //HOMEPAGE//
-var mySwiper = new Swiper('.sub-tabs', {
-    slidesPerView: 'auto',
-    loop: true,
-    initialSlide: 0, 
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
 });
 
-
-var tabButtons = document.querySelectorAll('.swiper-slide');
-tabButtons.forEach(function (button, index) {
-    button.addEventListener('click', function () {
-        mySwiper.slideTo(index);
-    });
-});
 
 
 //MAPS//
