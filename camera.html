@@ -64,89 +64,88 @@
 
     <script src="script.js"></script>
     <script>
-var video = document.getElementById('video');
-var cameraShot = document.getElementById('camera-snapshot');
-var deleteButton = document.getElementById('delete-snapshots');
+    var video = document.getElementById('video');
+    var cameraShot = document.getElementById('camera-snapshot');
+    var deleteButton = document.getElementById('delete-snapshots');
 
-// Load saved snapshots from localStorage
-var savedSnapshots = JSON.parse(localStorage.getItem('snapshots')) || [];
 
-if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-    navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
-        video.srcObject = stream;
-        video.play();
-    });
-}
+    var savedSnapshots = JSON.parse(localStorage.getItem('snapshots')) || [];
 
-document.getElementById('snap').addEventListener('click', function () {
-    var canvas = document.createElement('canvas');
-    var context = canvas.getContext('2d');
-
-    canvas.width = '280';
-    canvas.height = '200';
-    canvas.className = 'canvas';
-    canvas.style.margin = '0px 1.5px';
-    console.log(canvas);
-
-    // Create delete button
-    var deleteBtn = document.createElement('button');
-    deleteBtn.innerHTML = 'Delete';
-    deleteBtn.className = 'delete-btn';
-    deleteBtn.addEventListener('click', function () {
-        // Remove the snapshot from UI and localStorage
-        cameraShot.removeChild(canvas);
-        savedSnapshots = savedSnapshots.filter(snap => snap !== canvas.toDataURL('image/png'));
-        localStorage.setItem('snapshots', JSON.stringify(savedSnapshots));
-    });
-
-    cameraShot.appendChild(canvas);
-    canvas.appendChild(deleteBtn);
-    context.drawImage(video, 0, 0, 280, 200);
-
-    // Save the snapshot to localStorage
-    savedSnapshots.push(canvas.toDataURL('image/png'));
-    localStorage.setItem('snapshots', JSON.stringify(savedSnapshots));
-});
-
-// Display saved snapshots on page load
-savedSnapshots.forEach(function (snapshot) {
-    var canvas = document.createElement('canvas');
-    canvas.width = '280';
-    canvas.height = '200';
-    canvas.className = 'canvas';
-    canvas.style.margin = '0px 1.5px';
-
-    var context = canvas.getContext('2d');
-    var image = new Image();
-    image.src = snapshot;
-    image.onload = function () {
-        context.drawImage(image, 0, 0, 280, 200);
-    };
-
-    // Create delete button
-    var deleteBtn = document.createElement('button');
-    deleteBtn.innerHTML = 'Delete';
-    deleteBtn.className = 'delete-btn';
-    deleteBtn.addEventListener('click', function () {
-        // Remove the snapshot from UI and localStorage
-        cameraShot.removeChild(canvas);
-        savedSnapshots = savedSnapshots.filter(snap => snap !== canvas.toDataURL('image/png'));
-        localStorage.setItem('snapshots', JSON.stringify(savedSnapshots));
-    });
-
-    cameraShot.appendChild(canvas);
-    canvas.appendChild(deleteBtn);
-});
-
-// Add a button to delete all snapshots
-deleteButton.addEventListener('click', function () {
-    // Remove all snapshots from UI and localStorage
-    while (cameraShot.firstChild) {
-        cameraShot.removeChild(cameraShot.firstChild);
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+            video.srcObject = stream;
+            video.play();
+        });
     }
-    savedSnapshots = [];
-    localStorage.removeItem('snapshots');
-});
+
+    document.getElementById('snap').addEventListener('click', function () {
+        var canvas = document.createElement('canvas');
+        var context = canvas.getContext('2d');
+
+        canvas.width = '280';
+        canvas.height = '200';
+        canvas.className = 'canvas';
+        canvas.style.margin = '0px 1.5px';
+        console.log(canvas);
+
+
+        var deleteBtn = document.createElement('button');
+        deleteBtn.innerHTML = 'Delete';
+        deleteBtn.className = 'delete-btn';
+        deleteBtn.addEventListener('click', function () {
+
+            cameraShot.removeChild(canvas);
+            savedSnapshots = savedSnapshots.filter(snap => snap !== canvas.toDataURL('image/png'));
+            localStorage.setItem('snapshots', JSON.stringify(savedSnapshots));
+        });
+
+        cameraShot.appendChild(canvas);
+        canvas.appendChild(deleteBtn);
+        context.drawImage(video, 0, 0, 280, 200);
+
+
+        savedSnapshots.push(canvas.toDataURL('image/png'));
+        localStorage.setItem('snapshots', JSON.stringify(savedSnapshots));
+    });
+
+
+    savedSnapshots.forEach(function (snapshot) {
+        var canvas = document.createElement('canvas');
+        canvas.width = '280';
+        canvas.height = '200';
+        canvas.className = 'canvas';
+        canvas.style.margin = '0px 1.5px';
+
+        var context = canvas.getContext('2d');
+        var image = new Image();
+        image.src = snapshot;
+        image.onload = function () {
+            context.drawImage(image, 0, 0, 280, 200);
+        };
+
+        var deleteBtn = document.createElement('button');
+        deleteBtn.innerHTML = 'Delete';
+        deleteBtn.className = 'delete-btn';
+        deleteBtn.addEventListener('click', function () {
+
+            cameraShot.removeChild(canvas);
+            savedSnapshots = savedSnapshots.filter(snap => snap !== canvas.toDataURL('image/png'));
+            localStorage.setItem('snapshots', JSON.stringify(savedSnapshots));
+        });
+
+        cameraShot.appendChild(canvas);
+        canvas.appendChild(deleteBtn);
+    });
+
+
+    deleteButton.addEventListener('click', function () {
+
+        while (cameraShot.firstChild) {
+            cameraShot.removeChild(cameraShot.firstChild);
+        }
+        savedSnapshots = [];
+        localStorage.removeItem('snapshots');
+    });
 
 
     </script>
