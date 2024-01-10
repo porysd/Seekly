@@ -155,44 +155,18 @@ function showFloor(building) {
 
 //CONTACTS//
 
-function showFeedbackForm() {
-    document.getElementById('initialButtons').style.display = 'none';
-    document.getElementById('feedbackForm').style.display = 'block';
-    document.getElementById('confirmationMessage').style.display = 'none';
-  }
-
   function showReportForm() {
     document.getElementById('initialButtons').style.display = 'none';
     document.getElementById('reportForm').style.display = 'block';
     document.getElementById('confirmationMessage').style.display = 'none';
   }
 
-  function sendFeedback() {
-    if (validateFeedbackForm()) {
-      showConfirmationMessage('Thanks for giving feedback!');
-      showInitialButtons();
-      resetForm('feedbackForm');
-    }
-  }
-
   function submitReport() {
     if (validateReportForm()) {
-      showConfirmationMessage('Thanks for submitting a report!');
+      alert('Thanks for submitting a report!');
       showInitialButtons();
       resetForm('reportForm');
     }
-  }
-
-  function validateFeedbackForm() {
-    var email = document.getElementById('schoolEmail').value;
-    var message = document.getElementById('feedbackMessage').value;
-
-    if (!email || !message) {
-      alert('Please fill in all fields.');
-      return false;
-    }
-
-    return true;
   }
 
   function validateReportForm() {

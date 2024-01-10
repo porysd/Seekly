@@ -421,7 +421,6 @@ video{
     width: 1210px; 
     height: 460px; 
     background-color: darkgrey;
-    border: 10px solid #2b2b2b;
     border-radius: 10px;
     white-space: nowrap;
     margin-top: 50px;
