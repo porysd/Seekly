@@ -37,7 +37,7 @@ body{
 
 .search-tab1 {
     text-align: center;
-    padding: 20px;
+    margin-top: 80px;
 }
 
 #container-wrapper {
@@ -82,7 +82,8 @@ body{
     align-items: center;
     max-width: 80%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .btn, .shift, .delete, .space{
     background-color: #423F3E;
@@ -203,7 +204,7 @@ header {
 .scrolling-box {
     max-width: 1250px;
     width: 100%; 
-    max-height:max-content;
+    height: auto;
     border: 10px solid #2b2b2b;
     border-radius: 10px;
     white-space: nowrap;
