@@ -180,42 +180,42 @@ function showBooth(booth) {
     case "a-1":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A1toA12/A1.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-2":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A1toA12/A2.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-3":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A1toA12/A3.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-4":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A1toA12/A4.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-5":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A1toA12/A5.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-6":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A1toA12/A6.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
@@ -236,7 +236,7 @@ function showBooth(booth) {
     case "a-9":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A1toA12/A9.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
@@ -257,84 +257,84 @@ function showBooth(booth) {
     case "a-12":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A1toA12/A12.jpeg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-13":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/A13.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-14":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/A14.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-15":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/A15.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-16":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-17":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/A17.jpeg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-18":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/A18.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-19":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-20":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-21":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-22":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-23":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/A23.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
@@ -348,35 +348,35 @@ function showBooth(booth) {
     case "a-25":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "SERVICES/BS301A-PAWZ(FARQCODE).png";
+      boothImage.src = "CL/PAWZ.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-26":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "CL/i.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-27":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "Logos/Lintech.png";
+      boothImage.src = "CL/LT.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "wow";
       break;
     case "a-28":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "CL/POKEY.png";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-29":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A13toA22/A29.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
