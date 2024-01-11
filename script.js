@@ -499,12 +499,167 @@ function showBooth(booth) {
       boothInfo.innerHTML = "";
       boothText.innerHTML = "";
       break;
-    default:
-      boothImage.src = "";
-      noBoothMessage.style.display = "block";
-      boothImage.style.display = "none";
+      case "b-1":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "Blueprints/blueprint-a.jpg";
+        boothInfo.innerHTML = "building a";
+        boothText.innerHTML = "maganda sya";
+        break;
+      case "b-2":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "Blueprints/blueprint-b.jpg";
+        boothInfo.innerHTML = "building b";
+        boothText.innerHTML = "maganda parin sya";
+        break;
+      case "b-3":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-4":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-5":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-6":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-7":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-8":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-9":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-10":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-11":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-12":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-13":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-14":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-15":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-16":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-17":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-18":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-19":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-20":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-21":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      case "b-22":
+        noBoothMessage.style.display = "none";
+        boothImage.style.display = "block";
+        boothImage.src = "";
+        boothInfo.innerHTML = "";
+        boothText.innerHTML = "";
+        break;
+      default:
+        boothImage.src = "";
+        noBoothMessage.style.display = "block";
+        boothImage.style.display = "none";
+    }
   }
-}
+  
 
 
 

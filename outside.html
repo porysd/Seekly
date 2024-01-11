@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - Seekly</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b101170bba.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="Logos/seekly.png">
+</head>
+<header>
+    <div class="sectionTitle">
+        <h1>BUILDING MAP</h1>
+        <div class="lintech-logo">
+            <img src="Logos/Lintech.png" alt="LinTech Logo">
+        </div>
+    </div>
+</header>
+<body>
+    <div class="sidebar">
+        <a href="index.html" class="tab-logo">
+            <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+            <span>Search</span>
+        </a>
+        <a href="events.html" class="tab-logo">
+            <i class="fa-solid fa-house fa-2xl"></i>
+            <span>Home</span>
+        </a>
+        <a href="maps.html" class="tab-logo">
+            <i class="fa-solid fa-location-dot fa-2xl"></i>
+            <span>Map</span>
+        </a>
+        <a href="camera.html" class="tab-logo">
+            <i class="fa-solid fa-camera fa-2xl"></i>
+            <span>Camera</span>
+        </a>
+        <a href="game.html" class="tab-logo">
+            <i class="fa-solid fa-gamepad fa-2xl"></i>
+            <span>Game</span>
+        </a>
+        <a href="report.html" class="tab-logo">
+            <i class="fa-solid fa-flag fa-2xl"></i>
+            <span>Report</span>
+        </a>
+        <a href="contactus.html" class="tab-logo">
+            <i class="fa-solid fa-phone-volume  fa-2xl"></i>
+            <span>Contact</span>
+        </a>
+    </div>
+
+    <div class="content">
+        <div class="tab-content" id="maps-content">
+            <div class ="map-border">
+                <!-- BUTTONS -->
+                <div class="category-buttons">
+                    <button class="category-button" onclick="showCategory('A')">Tech</button>
+                    <button class="category-button" onclick="showCategory('B')">Food</button>
+                    <button class="category-button" onclick="showCategory('B')">Clothes</button>
+                    <button class="category-button" onclick="showCategory('C')">Others</button>
+                </div>
+                <!-- BOOTHINFO -->
+                <div class="info-container">
+                    <div class="image-holder">
+                        <p id="no-booth-message">=== NO BOOTH SELECTED ===</p>
+                        <img id="booth-image" src="" style="display: none;">
+                    </div>
+                    <div class="info-holder">
+                        <p class="booth-info" id="booth-info">Booth Info</p>
+                    </div>
+                    <div class="info-text-holder">
+                        <p class="booth-text" id="booth-text">Booth textfas dsdsdsdsds dsdsdsds dsdsdsd sdsdsdfasdfasdfsfffffffffffffffffff ffffffffffffffffffffff fffffffasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas dasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdffda</p>
+                    </div>
+                </div>
+                <!-- BLUEPRINT -->
+                <div class="map-blueprint">
+                    <button class="booth-button" onclick='showBooth("b-1")' data-booth="b-1" id="b-1">B-1</button>
+                    <button class="booth-button" onclick='showBooth("b-2")' data-booth="b-2" id="b-2">B-2</button>
+                    <button class="booth-button" onclick='showBooth("b-3")' data-booth="b-3" id="b-3">B-3</button>
+                    <button class="booth-button" onclick='showBooth("b-4")' data-booth="b-4" id="b-4">B-4</button>
+                    <button class="booth-button" onclick='showBooth("b-5")' data-booth="b-5" id="b-5">B-5</button>
+                    <button class="booth-button" onclick='showBooth("b-6")' data-booth="b-6" id="b-6">B-6</button>
+                    <button class="booth-button" onclick='showBooth("b-7")' data-booth="b-7" id="b-7">B-7</button>
+                    <button class="booth-button" onclick='showBooth("b-8")' data-booth="b-8" id="b-8">B-8</button>
+                    <button class="booth-button" onclick='showBooth("b-9")' data-booth="b-9" id="b-9">B-9</button>
+                    <button class="booth-button" onclick='showBooth("b-10")' data-booth="b-10" id="b-10">B-10</button>
+                    <button class="booth-button" onclick='showBooth("b-11")' data-booth="b-11" id="b-11">B-11</button>
+                    <button class="booth-button" onclick='showBooth("b-12")' data-booth="b-12" id="b-12">B-12</button>
+                    <button class="booth-button" onclick='showBooth("b-13")' data-booth="b-13" id="b-13">B-13</button>
+                    <button class="booth-button" onclick='showBooth("b-14")' data-booth="b-14" id="b-14">B-14</button>
+                    <button class="booth-button" onclick='showBooth("b-15")' data-booth="b-15" id="b-15">B-15</button>
+                    <button class="booth-button" onclick='showBooth("b-16")' data-booth="b-16" id="b-16">B-16</button>
+                    <button class="booth-button" onclick='showBooth("b-17")' data-booth="b-17" id="b-17">B-17</button>
+                    <button class="booth-button" onclick='showBooth("b-18")' data-booth="b-18" id="b-18">B-18</button>
+                    <button class="booth-button" onclick='showBooth("b-19")' data-booth="b-19" id="b-19">B-19</button>
+                    <button class="booth-button" onclick='showBooth("b-20")' data-booth="b-20" id="b-20">B-20</button>
+                    <button class="booth-button" onclick='showBooth("b-21")' data-booth="b-21" id="b-21">B-21</button>
+                    <button class="booth-button" onclick='showBooth("b-22")' data-booth="b-22" id="b-22">B-22</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Other content or footer if needed -->
+</body>
+</html>
