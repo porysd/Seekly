@@ -121,12 +121,12 @@ function showFloor(building) {
           floorImage.style.display = "block";
           break;
       case 'B':
-          floorImage.src = "Blueprints/blueprint-b.jpg";
+          floorImage.src = "Blueprints/inside.png";
           noBuildingMessage.style.display = "none";
           floorImage.style.display = "block";
           break;
       case 'C':
-          floorImage.src = "Blueprints/blueprint-c.jpg";
+          floorImage.src = "Blueprints/outside.png";
           noBuildingMessage.style.display = "none";
           floorImage.style.display = "block";
           break;
@@ -383,77 +383,77 @@ function showBooth(booth) {
     case "a-30":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-31":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-32":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-33":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-34":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-35":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-36":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-37":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-38":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-39":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;
     case "a-40":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
+      boothImage.src = "A30toA38/A40.jpg";
             boothInfo.innerHTML = "Booth Info:";
       boothText.innerHTML = "";
       break;

@@ -461,6 +461,8 @@ header {
     border: 1px solid black;
     background-color: #8f8e8e;
     border-radius: 10px;
+    text-align: center;
+    color:white;
 }
 .image-holder img{
     width: 100%;
