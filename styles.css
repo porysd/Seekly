@@ -175,7 +175,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
     color: white;
     text-decoration: none;
 }
@@ -203,7 +203,7 @@ header {
 .scrolling-box {
     max-width: 1250px;
     width: 100%; 
-    height: auto; 
+    max-height:max-content;
     border: 10px solid #2b2b2b;
     border-radius: 10px;
     white-space: nowrap;
