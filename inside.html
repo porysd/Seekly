@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - Seekly</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b101170bba.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="Logos/seekly.png">
+</head>
+<header>
+    <div class="sectionTitle">
+        <h1>BUILDING MAP</h1>
+        <div class="lintech-logo">
+            <img src="Logos/Lintech.png" alt="LinTech Logo">
+        </div>
+    </div>
+</header>
+<body>
+    <div class="sidebar">
+        <a href="index.html" class="tab-logo">
+            <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+            <span>Search</span>
+        </a>
+        <a href="events.html" class="tab-logo">
+            <i class="fa-solid fa-house fa-2xl"></i>
+            <span>Home</span>
+        </a>
+        <a href="maps.html" class="tab-logo">
+            <i class="fa-solid fa-location-dot fa-2xl"></i>
+            <span>Map</span>
+        </a>
+        <a href="camera.html" class="tab-logo">
+            <i class="fa-solid fa-camera fa-2xl"></i>
+            <span>Camera</span>
+        </a>
+        <a href="report.html" class="tab-logo">
+            <i class="fa-solid fa-flag fa-2xl"></i>
+            <span>Report</span>
+        </a>
+        <a href="contactus.html" class="tab-logo">
+            <i class="fa-solid fa-phone-volume  fa-2xl"></i>
+            <span>Contact</span>
+        </a>
+    </div>
+
+    <div class="content">
+        <div class="tab-content" id="maps-content">
+            <div class ="map-border">
+                <!-- BUTTONS -->
+                <div class="category-buttons">
+                    <button class="category-button" onclick="showCategory('A')">Tech</button>
+                    <button class="category-button" onclick="showCategory('B')">Food</button>
+                    <button class="category-button" onclick="showCategory('B')">Clothes</button>
+                    <button class="category-button" onclick="showCategory('C')">Others</button>
+                </div>
+                <!-- BOOTHINFO -->
+                <div class="info-container">
+                    <div class="image-holder">
+                        <p id="no-booth-message">=== NO BOOTH SELECTED ===</p>
+                        <img id="booth-image" src="" style="display: none;">
+                    </div>
+                    <div class="info-holder">
+                        <p class="booth-info" id="booth-info">Booth Info</p>
+                    </div>
+                    <div class="info-text-holder">
+                        <p class="booth-text" id="booth-text">Booth textfas dsdsdsdsds dsdsdsds dsdsdsd sdsdsdfasdfasdfsfffffffffffffffffff ffffffffffffffffffffff fffffffasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas dasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdffda</p>
+                    </div>
+                </div>
+                <!-- BLUEPRINT -->
+                <div class="map-blueprint">
+                    <button class="booth-button" onclick='showBooth("entrance")' data-booth="entrance" id="entrance">ENTRANCE</button>
+                    <button class="booth-button" onclick='showBooth("stage")' data-booth="stage" id="stage">STAGE</button>
+                    <button class="booth-button" onclick='showBooth("office")' data-booth="office" id="office">OFFICE</button>
+                    <button class="booth-button" onclick='showBooth("a-1")' data-booth="a-1" id="a-1">A-1</button>
+                    <button class="booth-button" onclick='showBooth("a-2")' data-booth="a-2" id="a-2">A-2</button>
+                    <button class="booth-button" onclick='showBooth("a-3")' data-booth="a-3" id="a-3">A-3</button>
+                    <button class="booth-button" onclick='showBooth("a-4")' data-booth="a-4" id="a-4">A-4</button>
+                    <button class="booth-button" onclick='showBooth("a-5")' data-booth="a-5" id="a-5">A-5</button>
+                    <button class="booth-button" onclick='showBooth("a-6")' data-booth="a-6" id="a-6">A-6</button>
+                    <button class="booth-button" onclick='showBooth("a-7")' data-booth="a-7" id="a-7">A-7</button>
+                    <button class="booth-button" onclick='showBooth("a-8")' data-booth="a-8" id="a-8">A-8</button>
+                    <button class="booth-button" onclick='showBooth("a-9")' data-booth="a-9" id="a-9">A-9</button>
+                    <button class="booth-button" onclick='showBooth("a-10")' data-booth="a-10" id="a-10">A-10</button>
+                    <button class="booth-button" onclick='showBooth("a-11")' data-booth="a-11" id="a-11">A-11</button>
+                    <button class="booth-button" onclick='showBooth("a-12")' data-booth="a-12" id="a-12">A-12</button>
+                    <button class="booth-button" onclick='showBooth("a-13")' data-booth="a-13" id="a-13">A-13</button>
+                    <button class="booth-button" onclick='showBooth("a-14")' data-booth="a-14" id="a-14">A-14</button>
+                    <button class="booth-button" onclick='showBooth("a-15")' data-booth="a-15" id="a-15">A-15</button>
+                    <button class="booth-button" onclick='showBooth("A-16")' data-booth="A-16" id="a-16">A-16</button>
+                    <button class="booth-button" onclick='showBooth("a-17")' data-booth="a-17" id="a-17">A-17</button>
+                    <button class="booth-button" onclick='showBooth("a-18")' data-booth="a-18" id="a-18">A-18</button>
+                    <button class="booth-button" onclick='showBooth("a-19")' data-booth="a-19" id="a-19">A-19</button>
+                    <button class="booth-button" onclick='showBooth("a-20")' data-booth="a-20" id="a-20">A-20</button>
+                    <button class="booth-button" onclick='showBooth("a-21")' data-booth="a-21" id="a-21">A-21</button>
+                    <button class="booth-button" onclick='showBooth("a-22")' data-booth="a-22" id="a-22">A-22</button>
+                    <button class="booth-button" onclick='showBooth("a-23")' data-booth="a-23" id="a-23">A-23</button>
+                    <button class="booth-button" onclick='showBooth("a-24")' data-booth="a-24" id="a-24">A-24</button>
+                    <button class="booth-button" onclick='showBooth("a-25")' data-booth="a-25" id="a-25">A-25</button>
+                    <button class="booth-button" onclick='showBooth("a-26")' data-booth="a-26" id="a-26">A-26</button>
+                    <button class="booth-button" onclick='showBooth("a-27")' data-booth="a-27" id="a-27">A-27</button>
+                    <button class="booth-button" onclick='showBooth("a-28")' data-booth="a-28" id="a-28">A-28</button>
+                    <button class="booth-button" onclick='showBooth("a-29")' data-booth="a-29" id="a-29">A-29</button>
+                    <button class="booth-button" onclick='showBooth("a-30")' data-booth="a-30" id="a-30">A-30</button>
+                    <button class="booth-button" onclick='showBooth("a-31")' data-booth="a-31" id="a-31">A-31</button>
+                    <button class="booth-button" onclick='showBooth("a-32")' data-booth="a-32" id="a-32">A-32</button>
+                    <button class="booth-button" onclick='showBooth("a-33")' data-booth="a-33" id="a-33">A-33</button>
+                    <button class="booth-button" onclick='showBooth("a-34")' data-booth="a-34" id="a-34">A-34</button>
+                    <button class="booth-button" onclick='showBooth("a-35")' data-booth="a-35" id="a-35">A-35</button>
+                    <button class="booth-button" onclick='showBooth("a-36")' data-booth="a-36" id="a-36">A-36</button>
+                    <button class="booth-button" onclick='showBooth("a-37")' data-booth="a-37" id="a-37">A-37</button>
+                    <button class="booth-button" onclick='showBooth("a-38")' data-booth="a-38" id="a-38">A-38</button>
+                    <button class="booth-button" onclick='showBooth("a-39")' data-booth="a-39" id="a-39">A-39</button>
+                    <button class="booth-button" onclick='showBooth("a-40")' data-booth="a-40" id="a-40">A-40</button>
+                    <button class="booth-button" onclick='showBooth("a-41")' data-booth="a-41" id="a-41">A-41</button>
+                    <button class="booth-button" onclick='showBooth("a-42")' data-booth="a-42" id="a-42">A-42</button>
+                    <button class="booth-button" onclick='showBooth("a-43")' data-booth="a-43" id="a-43">A-43</button>
+                    <button class="booth-button" onclick='showBooth("a-44")' data-booth="a-44" id="a-44">A-44</button>
+                    <button class="booth-button" onclick='showBooth("a-45")' data-booth="a-45" id="a-45">A-45</button>
+                    <button class="booth-button" onclick='showBooth("a-46")' data-booth="a-46" id="a-46">A-46</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Other content or footer if needed -->
+</body>
+</html>
