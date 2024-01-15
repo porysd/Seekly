@@ -157,346 +157,346 @@ function showBooth(booth) {
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       //BOOTH IMAGE DITO//
-      boothImage.src = "Blueprints/blueprint-a.jpg";
+      boothImage.src = "Blueprints/inside.png";
       //BOOTH TITLE DITO//
-      boothInfo.innerHTML = "building a";
+      boothInfo.innerHTML = "MAIN COURT ENTRANCE";
       //BOOTH TEXT/INFORMATION DITO//
-      boothText.innerHTML = "maganda sya";
+      boothText.innerHTML = "welcome";
       break;
     case "stage":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "Blueprints/blueprint-b.jpg";
-      boothInfo.innerHTML = "building b";
-      boothText.innerHTML = "maganda parin sya";
+      boothImage.src = "";
+      boothInfo.innerHTML = "STAGE";
+      boothText.innerHTML = "Stage area";
       break;
     case "office":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "OFFICES";
+      boothText.innerHTML = "PE TEACHERS OFFICES";
       break;
     case "a-1":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A1toA12/A1.png";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Prime";
+      boothText.innerHTML = "Used to book for self pleasure services";
       break;
     case "a-2":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A1toA12/A2.jpg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "STI CHAT AI";
+      boothText.innerHTML = "An educational virtual assistant";
       break;
     case "a-3":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A1toA12/A3.jpg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Cool Breeze";
+      boothText.innerHTML = "Rechargeable Umbrella that has an electric fan included";
       break;
     case "a-4":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A1toA12/A4.jpg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Lazy Board";
+      boothText.innerHTML = "Creates shortcut keys like V+N which goes to Microsoft/Canvas";
       break;
     case "a-5":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A1toA12/A5.png";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Denttime";
+      boothText.innerHTML = "Guides individuals on how to be hygienic like toothbrushing";
       break;
     case "a-6":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A1toA12/A6.png";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Eco Vac";
+      boothText.innerHTML = "Alternative Vacuum for the environment. It minimize the handheld vacuum and use recycled materials to help the ecosystem";
       break;
     case "a-7":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Hukay Hukay";
+      boothText.innerHTML = "Thrift Store that reduce waste fast fashion and budget friendly clothes";
       break;
     case "a-8":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "ReSinta";
+      boothText.innerHTML = "Affordable Resin Gifts like Pendeants and Keychains";
       break;
     case "a-9":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A1toA12/A9.jpg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Preciozo";
+      boothText.innerHTML = "Personalized Bracelets. Make yourself bracelets so people can enhance their art prowess";
       break;
     case "a-10":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Clo6d9ine";
+      boothText.innerHTML = "Essential Oil for Humidifier and very Unique within this event";
       break;
     case "a-11":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Eco-dle";
+      boothText.innerHTML = "Eco-friendly scented candles. Uses solution for relaxation. The was that they use is soy because it does not burn";
       break;
     case "a-12":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A1toA12/A12.jpeg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Shrink n' Signs";
+      boothText.innerHTML = "Draw your own designs in plastic which shrink using a heatgun. Evil eye bracelet and keychains sold with each purchases allowing you to get a free tarot card reading";
       break;
     case "a-13":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/A13.png";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "RFID Locker";
+      boothText.innerHTML = "Uses RFID for the security. Helps out users for a less hassle locker experience";
       break;
     case "a-14":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/A14.jpg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Solace Energy";
+      boothText.innerHTML = "Solar Portable charger. In Case of Emergency you can instantly use it without the need of electricity";
       break;
     case "a-15":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/A15.jpg";
-            boothInfo.innerHTML = "Booth Info:";
+            boothInfo.innerHTML = "Air Cooler";
       boothText.innerHTML = "";
       break;
     case "a-16":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/";
-            boothInfo.innerHTML = "Booth Info:";
+            boothInfo.innerHTML = "KNM VI";
       boothText.innerHTML = "";
       break;
     case "a-17":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/A17.jpeg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "GPS WALLET";
+      boothText.innerHTML = "A small tracker for your wallet. It can also be used to any object. 10 meters alerts the users from phone";
       break;
     case "a-18":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/A18.png";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Curtain Call";
+      boothText.innerHTML = "s a video Game 3d platform. Uses Stage plays as its theme";
       break;
     case "a-19":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Optifine A";
+      boothText.innerHTML = "Screen Used to magnify your phone's view and also has it's own surround sound";
       break;
     case "a-20":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Catapult";
+      boothText.innerHTML = "Used to launch any kind of object";
       break;
     case "a-21":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "DinoRAWR";
+      boothText.innerHTML = "Retexture of the classic chrome offline mini-game";
       break;
     case "a-22":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/";
-            boothInfo.innerHTML = "Booth Info:";
+            boothInfo.innerHTML = "";
       boothText.innerHTML = "";
       break;
     case "a-23":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A13toA22/A23.png";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Baggage Counter";
+      boothText.innerHTML = "Counts your baggages";
       break;
     case "a-24":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+      boothImage.src = "CL/PAWZ.png";
+            boothInfo.innerHTML = "FarQ Code";
+      boothText.innerHTML = "Scans an ID that collects and shows information when a QR code is scanned";
       break;
     case "a-25":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "CL/PAWZ.png";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+      boothImage.src = "CL/i.png";
+            boothInfo.innerHTML = "Istudy";
+      boothText.innerHTML = "Provides helpful tools to improve studying productivity";
       break;
     case "a-26":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "CL/i.png";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+      boothImage.src = "CL/LT.jpg";
+            boothInfo.innerHTML = "Seekly";
+      boothText.innerHTML = "Provides an interactive map that helps individuals to get information as well as to gain proper navigation";
       break;
     case "a-27":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "CL/LT.jpg";
-            boothInfo.innerHTML = "Booth Info:";
+      boothImage.src = "CL/POKEY.png";
+            boothInfo.innerHTML = "Provides a convention based api system framework. For developing that will use to develop systems that targets developers that have a hard time learning databases";
       boothText.innerHTML = "wow";
       break;
     case "a-28":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "CL/POKEY.png";
-            boothInfo.innerHTML = "Booth Info:";
+      boothImage.src = "";
+            boothInfo.innerHTML = "Empty";
       boothText.innerHTML = "";
       break;
     case "a-29":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "A13toA22/A29.jpg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+      boothImage.src = "";
+            boothInfo.innerHTML = "PodCasting";
+      boothText.innerHTML = "Talks";
       break;
     case "a-30":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Shoe Care";
+      boothText.innerHTML = "Provides shoe polishing and cleaning on both leather and rubber shoes";
       break;
     case "a-31":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
+            boothInfo.innerHTML = "CHAIRS";
       boothText.innerHTML = "";
       break;
     case "a-32":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Eatbites";
+      boothText.innerHTML = "Food ordering site. Can be personalized the type of food that you'd want to order/buy";
       break;
     case "a-33":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "FlexLace";
+      boothText.innerHTML = "An upgraded ID lace that has features such as utility, LED lights or signal lights";
       break;
     case "a-34":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "PandaTech";
+      boothText.innerHTML = "Showcases multiple popular franchises as well as small businesses";
       break;
     case "a-35":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "XLNC(Excellence)";
+      boothText.innerHTML = "An E-commerce website that focuses on selling clothes";
       break;
     case "a-36":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "AutoMaker";
+      boothText.innerHTML = "A service that takes pictures of individuals which will be then printed in a high quality paper";
       break;
     case "a-37":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Print and Go";
+      boothText.innerHTML = "Personalized Budget Friendly Accessories";
       break;
     case "a-38":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Aether Zone";
+      boothText.innerHTML = "Selling Tickets for the fighting game community";
       break;
     case "a-39":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Photography";
+      boothText.innerHTML = "Takes pictures of individuals";
       break;
     case "a-40":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "A30toA38/A40.jpg";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Print Plush";
+      boothText.innerHTML = "They capture every moment and we deliver untold messages";
       break;
     case "a-41":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
-      boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+      boothImage.src = "CL/";
+            boothInfo.innerHTML = "Code Tech";
+      boothText.innerHTML = "Focuses on helping people that wants to learn programming related topics such as java and HTML";
       break;
     case "a-42":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Tech Wizard";
+      boothText.innerHTML = "Focuses on printing advertisement for businesses";
       break;
     case "a-43":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Time Mentor";
+      boothText.innerHTML = "Customization of wallpaper that includes quotes to help personalize and motivate mentors.";
       break;
     case "a-44":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "Attebdify";
+      boothText.innerHTML = "Attendance system for teachers to see and check if the students have entered the school premises";
       break;
     case "a-45":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
-      boothText.innerHTML = "";
+            boothInfo.innerHTML = "TechCity";
+      boothText.innerHTML = "Digital Manual/Guide to help users to quick fix their computers";
       break;
     case "a-46":
       noBoothMessage.style.display = "none";
       boothImage.style.display = "block";
       boothImage.src = "";
-            boothInfo.innerHTML = "Booth Info:";
+            boothInfo.innerHTML = "Empty";
       boothText.innerHTML = "";
       break;
       case "b-1":
